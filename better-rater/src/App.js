@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Header from './components/Header'
 import FeedbackList from './components/FeedbackList'
+import FeedbackStats from './components/FeedbackStats'
+
 import FeedbackData from './data/FeedbackData'
 // passing in from my "Global State" (above)
 // to my Components-level State (below)
@@ -18,10 +20,10 @@ function App() {
         <>
         <Header />
         <div className='container'>
-        <FeedbackList feedback={feedback} 
-        handleDelete={deleteFeedback} />
+            <FeedbackStats feedback={feedback} />
+            <FeedbackList feedback={feedback} 
+             handleDelete={deleteFeedback} />
         </div>
-
         </>
     )
 }
