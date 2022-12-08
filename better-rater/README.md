@@ -1,3 +1,8 @@
+# Site Deployed Via Netlify
+
+### `https://cosmic-torte-bb361c.netlify.app/`
+=> [Click here to view 'Better Rater' web app](https://cosmic-torte-bb361c.netlify.app/) <==
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
